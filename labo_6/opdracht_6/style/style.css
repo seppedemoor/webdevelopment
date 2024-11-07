@@ -1,0 +1,25 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+.checklist {
+    list-style: none;
+}
+.checklist li {
+    font-size: 20px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+.checklist li::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/checkbox.png");
+    background-size: contain;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+}
+.checklist li.checked::before {
+    background-image: url("../images/unchecked.png");
+}
