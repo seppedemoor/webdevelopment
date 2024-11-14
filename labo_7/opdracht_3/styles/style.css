@@ -1,0 +1,38 @@
+body {
+    width: 90%;
+    margin: auto;
+    font: normal 12px/150% Verdana, Arial, Helvetica, sans-serif;
+}
+
+.vrienden table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.vrienden th, .vrienden td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.vrienden thead th {
+    background-color: lightblue;
+    color: white;
+}
+
+.vrienden tbody .alt {
+    background-color: #ddd;
+}
+
+.vrienden tbody tr:hover {
+    background-color: lightblue;
+}
+
+.vrienden tbody td {
+    color: black;
+}
+
+.vrienden tbody td.onbekend {
+    background-color: red;
+    color: white;
+}

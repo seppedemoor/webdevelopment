@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 30%;
+    margin:auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+}
+
+.month-header {
+    background-color: rgb(170, 170, 200);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.day-header {
+    background-color: rgb(35, 37, 70);
+    color: rgb(200, 190, 240);
+}
+
+td:first-child, td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+
+.prev-next-month {
+    color: grey;
+}
+
+.holiday {
+    background-color: rgb(250, 120, 120);
+    color: white;
+}

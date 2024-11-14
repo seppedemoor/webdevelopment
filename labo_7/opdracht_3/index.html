@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+<body>
+<section class="vrienden">
+  <h2>Opdracht 3</h2>
+  <table>
+    <thead>
+    <tr>
+      <th>Voornaam</th>
+      <th>Familienaam</th>
+      <th>Postcode</th>
+      <th>Stad</th>
+      <th>Email</th>
+      <th>GeboorteJaar</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Grim</td>
+      <td>Baeke</td>
+      <td>9620</td>
+      <td>Zottegem</td>
+      <td class="onbekend">Onbekend</td>
+      <td>2005</td>
+    </tr>
+    <tr class="alt">
+      <td>Mattias</td>
+      <td class="onbekend">Onbekend</td>
+      <td>9636</td>
+      <td>Oudenaarde</td>
+      <td>Mattias.demil@telenet.be</td>
+      <td>2006</td>
+    </tr>
+    <tr>
+      <td>Yorben</td>
+      <td>Van der Meiren</td>
+      <td>9620</td>
+      <td>Zottegem</td>
+      <td>vandermeirenyorben@gmail.com</td>
+      <td class="onbekend">Onbekend</td>
+    </tr>
+    <tr class="alt">
+      <td>Phebe</td>
+      <td>De Jaegher</td>
+      <td class="onbekend">Onbekend</td>
+      <td>Ronse</td>
+      <td>dejaegherphebe47@gmail.com</td>
+      <td>2005</td>
+    </tr>
+    <tr>
+      <td>Briec</td>
+      <td>Waelkens</td>
+      <td>9636</td>
+      <td>Oudenaarde</td>
+      <td>brieuc.waelkens@hotmail.com</td>
+      <td>2003</td>
+    </tr>
+    </tbody>
+  </table>
+</section>
+<section>
+  <h2>Vraag:</h2>
+  <p>Specificiteit bepaalt welke CSS-regel wint bij conflicten.
+    Omdat .alt op de hele rij zit, kan het de kleur van .onbekend overschrijven.
+    Door .vrienden tbody td.onbekend specifieker te maken overschrijft hij .alt.</p>
+</section>
+</body>
+</html>
