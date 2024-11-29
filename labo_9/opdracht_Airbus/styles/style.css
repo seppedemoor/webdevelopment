@@ -1,0 +1,142 @@
+body {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-image: url("../images/bgsky3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: darkblue;
+    height: 200px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}
+
+header p {
+    font-size: 2.4em;
+    font-weight: bold;
+    margin: 45px 0 0;
+}
+
+header img {
+    position: absolute;
+    bottom: 60px;
+    right: 250px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    background-color: #dddddd;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+aside h3 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+aside p {
+    font-size: 90%;
+    color: #666666;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+
+main {
+    float: left;
+    width: 72%;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+.intro {
+    text-align: justify;
+    background-color: white;
+    color: black;
+    margin: 20px 30px 20px 200px;
+}
+
+.blauwe_tekst {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.logo {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gallery {
+    background-color: #999999;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.gallery .foto {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border: 1px dotted white;
+    box-sizing: content-box;
+}
+
+footer {
+    background-color: #666666;
+    color: white;
+    text-align: left;
+    padding: 20px 0;
+    clear: both;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+footer ul ul {
+    list-style: circle;
+    margin-left: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: red;
+}
+
+footer p {
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 10px 0;
+}
