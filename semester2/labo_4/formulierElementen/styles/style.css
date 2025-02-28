@@ -1,0 +1,24 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input[type="color"]{
+    width: 100px;
+    height: 70px;
+}
+

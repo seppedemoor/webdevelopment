@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.buttons{
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 15pt;
+    margin: 0 10px;
+}
