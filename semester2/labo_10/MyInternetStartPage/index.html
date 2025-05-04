@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Startpagina</title>
+    <meta name="viewport" content=<"width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<main class="main">
+    <h1 class="titel">Mijn Internet Startpagina</h1>
+
+    <div class="input">
+        <input type="text" placeholder="Typ een commando...">
+        <div class="kleineTekst">
+            Begin je commando met '[/teken] [zoekopdracht]'
+        </div>
+        <button class="submit" onclick="toonGeschiedenis()">GO!</button>
+    </div>
+
+    <h2 class="subtitel">Geschiedenis</h2>
+    <div id="geschiedenis" class="geschiedenisRaster"></div>
+</main>
+
+<script src="scripts/code.js"></script>
+</body>
+</html>
